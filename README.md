@@ -1,25 +1,18 @@
-# FeedHenry Hello World MBaaS Server
+# RSS Connector Service
 
-This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
+Reads an RSS feed
 
 # Group Hello World API
 
-# hello [/hello]
+# feeds [/feeds]
 
-'Hello world' endpoint.
+'Feeds' endpoint.
 
-## hello [POST] 
+## feeds [GET] 
 
-'Hello world' endpoint.
+'Feeds' endpoint.
 
 + Request (application/json)
     + Body
-            {
-              "hello": "world"
-            }
 
 + Response 200 (application/json)
-    + Body
-            {
-              "msg": "Hello world"
-            }
