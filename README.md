@@ -104,7 +104,7 @@ You should now also be able to test this MbaaS Service:
 
 - Continue with importing the [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service).
 
-# Group Hello World API
+# Group Feeds API
 This part of the README.md makes the MBaaS Service testable from RHMAP's App Studio. Please ignore, since the formatting is optimized for RHMAP.
 
 # feeds [/feeds]
@@ -120,21 +120,3 @@ This part of the README.md makes the MBaaS Service testable from RHMAP's App Stu
 + Response 200 (application/json)
 
 + Body
-            [
-                {
-                    "title": "Hello World",
-                    "link": "https://opensource.com/article/17/2/top-gnome-shell-extensions",
-                    "pubDate": "Thu, 09 Feb 2017 03:03:00 -0500",
-                    "content": "Candy oat cake halvah ice cream icing bear claw brownie pie ice cream. Powder topping sugar plum lollipop brownie lollipop oat cake cookie. Lollipop dragée chocolate halvah biscuit. Dragée liquorice sweet. Candy canes dragée marshmallow muffin macaroon cheesecake apple pie bear claw bear claw.",
-                    "contentSnippet": "Candy oat cake halvah ice cream icing bear claw brownie pie ice cream. Powder topping sugar plum lollipop brownie lollipop oat cake cookie. Lollipop dragée chocolate halvah biscuit. Dragée liquorice sweet. Candy canes dragée marshmallow muffin macaroon cheesecake apple pie bear claw bear claw.",
-                    "guid": "https://opensource.com/article/17/2/top-gnome-shell-extensions"
-                },
-                {
-                    "title": "Hello World",
-                    "link": "https://opensource.com/article/17/2/top-gnome-shell-extensions",
-                    "pubDate": "Thu, 09 Feb 2017 03:03:00 -0500",
-                    "content": "Candy oat cake halvah ice cream icing bear claw brownie pie ice cream. Powder topping sugar plum lollipop brownie lollipop oat cake cookie. Lollipop dragée chocolate halvah biscuit. Dragée liquorice sweet. Candy canes dragée marshmallow muffin macaroon cheesecake apple pie bear claw bear claw.",
-                    "contentSnippet": "Candy oat cake halvah ice cream icing bear claw brownie pie ice cream. Powder topping sugar plum lollipop brownie lollipop oat cake cookie. Lollipop dragée chocolate halvah biscuit. Dragée liquorice sweet. Candy canes dragée marshmallow muffin macaroon cheesecake apple pie bear claw bear claw.",
-                    "guid": "https://opensource.com/article/17/2/top-gnome-shell-extensions"
-                }
-            ]
