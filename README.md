@@ -85,6 +85,14 @@ Branch master set up to track remote branch master from rhmap.
 
 ![alt text](./pictures/deployment_finished.png "Deployment finished")
 
+## Test the MBaaS Service
+You should now also be able to test this MbaaS Service:
+
+- Click on the `Docs` tab
+- Click on `Try it` to call out for RSS feeds
+
+![alt text](./pictures/testing.png "Testing")
+
 ## Add a deployed service to your project
 
 - Change the access rights of the MBaaS Service to reflect the project, you want to use the connector in:
