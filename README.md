@@ -12,23 +12,18 @@ as XML and converting it to JSON.
 
 - Click on `MBaaS Services & APIs`
 - Select `Provision a new MBaaS Service/API`
-
 ![alt text](./pictures/mbaas_service.png "Provision a service")
 
 - Choose the `New mBaaS Service` template
 - Name your new Service: `RSS Connector`
-
 ![alt text](./pictures/specify_details.png "Specify the name")
 
 - Click on `Next`
-
 - Wait for the service to Provision
-
 - Click `Finish`, you'll be directed to the details screen of your new service.
-
 ![alt text](./pictures/finish_provisioning.png "Finished provisioning")
 
-- Clone this Git-Repository locally:
+- Clone `this` Git-Repository locally:
 
 ```
 mmetting-OSX:tmp mmetting$ git clone https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector.git
@@ -57,7 +52,7 @@ rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connectr.git (fetch
 rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connectr.git (push)
 ```
 
-- Overwrite the remote repositoy with the local clone:
+- Overwrite the remote repositoy setting in RHMAP with the local clone:
 
 ```
 mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git push -u rhmap -f
@@ -82,7 +77,6 @@ Branch master set up to track remote branch master from rhmap.
 ```
 
 - Select the `Deploy` tab in the AppStudio and deploy the MBaaS service:
-
 ![alt text](./pictures/deployment_finished.png "Deployment finished")
 
 ## Test the MBaaS Service
@@ -90,18 +84,15 @@ You should now also be able to test this MbaaS Service:
 
 - Click on the `Docs` tab
 - Click on `Try it` to call out for RSS feeds
-
 ![alt text](./pictures/testing.png "Testing")
 
 ## Add a deployed service to your project
 
 - Change the access rights of the MBaaS Service to reflect the project, you want to use the connector in:
-
 ![alt text](./pictures/make_public.png "Adding the MBaaS Service to a project")
 
 - Click `Save`
 - You will be asked to re-deploy the service. Click on `Deploy` to do so.
-
 - Continue with importing the [Mapping Service](https://github.com/mmetting/RSS-Reader-Demo-Mapper-Service).
 
 # Group Feeds API
