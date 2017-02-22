@@ -8,7 +8,7 @@ plays an important role (re Mobile).
 Therefore this MBaaS Service uses a Node module `rss-parser` to call out to [opensource.com](https://opensource.com/), retrieving the feed 
 as XML and converting it to JSON.
 
-## Import an exisiting MBaaS Service to your domain
+## Import an existing MBaaS Service to your domain
 
 - Click on `MBaaS Services & APIs`
 - Select `Provision a new MBaaS Service/API`
@@ -39,7 +39,7 @@ Resolving deltas: 100% (63/63), done.
 - Add a new remote to the local clone. The URL for the new remote is the Git-URL of the above created MBaaS Service and can be found in the MBaaS Service's details tab.
 
 ```
-mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git remote add rhmap git@git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connector.git
+mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git remote add rhmap git@git.tom.redhatmobile.com:mmetting/RSS-Connector-RSS-Connector.git
 ```
 
 - Check if the new remote was added
@@ -48,11 +48,11 @@ mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git remote add rhmap git@gi
 mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git remote -v
 origin	https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector.git (fetch)
 origin	https://github.com/mmetting/RSS-Reader-Demo-RSS-Connector.git (push)
-rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connectr.git (fetch)
-rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connectr.git (push)
+rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connector-RSS-Connector.git (fetch)
+rhmap	git@git.tom.redhatmobile.com:mmetting/RSS-Connector-RSS-Connector.git (push)
 ```
 
-- Overwrite the remote repositoy setting in RHMAP with the local clone:
+- Overwrite the remote repository setting in RHMAP with the local clone:
 
 ```
 mmetting-OSX:RSS-Reader-Demo-RSS-Connector mmetting$ git push -u rhmap -f
@@ -71,7 +71,7 @@ Delta compression using up to 8 threads.
 Compressing objects: 100% (52/52), done.
 Writing objects: 100% (147/147), 19.34 KiB | 0 bytes/s, done.
 Total 147 (delta 63), reused 147 (delta 63)
-To git.tom.redhatmobile.com:mmetting/RSS-Connectr-RSS-Connectr.git
+To git.tom.redhatmobile.com:mmetting/RSS-Connector-RSS-Connector.git
  + 8f9d12e...ae84e3b master -> master (forced update)
 Branch master set up to track remote branch master from rhmap.
 ```
@@ -80,7 +80,7 @@ Branch master set up to track remote branch master from rhmap.
 ![alt text](./pictures/deployment_finished.png "Deployment finished")
 
 ## Test the MBaaS Service
-You should now also be able to test this MbaaS Service:
+You should now also be able to test this MBaaS Service:
 
 - Click on the `Docs` tab
 - Click on `Try it` to call out for RSS feeds
